@@ -1,0 +1,1024 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.banner{
+    background: linear-gradient(-45deg, rgb(59, 157, 211), rgb(17, 176, 142), blue, yellow); 
+    background-size: 400% 400%;
+    width: 100%;
+    height: 100%;
+    margin-top:0px;
+    animation:  animate 15s ease infinite;
+}
+.navbar{
+    width: 85%;
+    margin:auto;
+    padding:35px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: fixed;
+}
+.icon{
+    font-family: serif;
+    color: white;
+    cursor: pointer;
+}
+.icon a{
+    text-decoration: none;
+    color: white;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+.navbar ul li ::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background: #FEDB39;
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    transition: 0.3s;
+}
+.navbar ul li :hover::after{
+    width: 100%;
+}
+.Developers{
+    width: 1472px;
+    height: 1200px;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(op.gif);
+    background-position: center;
+    background-size: cover;
+    position: fixed;
+}
+.About_Us{
+    width: 1472px;
+    height: 800px;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(/Users/shrinivasinamdar/Desktop/op.gif);
+    background-position: center;
+    background-size: cover;
+    position: fixed;
+}
+
+  
+.card-1{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    margin-top: 200px;
+    padding: 50px;
+    transition: 0.2s;
+    background-color:aqua;
+    border-radius: 10px;
+    padding-left: 20px;
+    margin-top: -300px;
+    height: 200px;
+    width:225px;
+    margin-left: 550px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: relative;
+    text-align: center;
+ 
+}
+  .card-1:hover {
+    box-shadow: 0 15px 16px 0 rgba(0,0,0,0.2);
+    transform: scale(1.1); 
+  }
+  .container {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+    padding-top:-10px;
+  }
+.button{
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 3px;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-top: 3px;
+    margin-left: 70px;
+    border: none;
+    margin: 0px;
+    padding: 10px;
+    cursor: pointer;
+    text-align: center;
+ 
+
+}
+.button a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+}
+.button:hover{
+    
+    background-color: rgb(254, 254, 254);
+    
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    cursor: pointer;
+}
+.IMG{
+    border-radius: 10px;
+    height: 171px;
+    width: 235px;
+}
+#img1{
+    border-radius: 10px;
+    height: 171px;
+    width: 235px;
+    padding-top: 20px;
+}
+
+.card-2{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    padding: 50px;
+    transition: 0.2s;
+    background-color:aqua;
+    border-radius: 10px;
+    padding-left: 20px;
+    margin-top: 100px;
+    height: 200px;
+    width:225px;
+    margin-left: 200px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: relative;
+    size:16px;
+    text-align: center;
+}
+
+#c2{
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.IMG2{
+    height: 171px;
+    width: 235px;
+    border-radius: 10px;
+}
+
+.card-2:hover {
+    box-shadow: 0 15px 16px 0 rgba(0,0,0,0.2);
+    transform: scale(1.1); 
+  }
+
+
+  #grad1{
+    background: linear-gradient(-45deg, rgb(242, 0, 255), green, blue, yellow); 
+    background-size: 400% 400%;
+    width: 100%;
+    height: 100vh;
+    margin-top:-400px;
+    animation:  animate 15s ease infinite;
+     
+  }
+
+@keyframes animate{
+    0%{
+        background-position: 0 50%;
+        }
+        50%{
+        background-position: 100% 50%;
+        }
+        100%{
+        background-position:0 50%;
+        }
+}
+  .typewriter {
+    display: inline-block;
+    margin-top:50px ;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+
+  }
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  .typed-out{
+    overflow: hidden;
+    border-right: .15em solid orange;
+    white-space: nowrap;
+    font-size:80px;
+    width: 0;
+    animation: typing 1s steps(20, end) forwards;
+    text-align: center;
+    background: -webkit-linear-gradient(rgb(30, 246, 77), rgb(248, 142, 12));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+    
+}
+.card-3{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    padding: 50px;
+    transition: 0.2s;
+    background-color:aqua;
+    border-radius: 10px;
+    padding-left: 20px;
+    margin-top: -650px;
+    height: 200px;
+    width:225px;
+    margin-left: 910px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: relative;
+    size:16px;
+    text-align: center;
+  }
+  .card-3:hover {
+    box-shadow: 0 15px 16px 0 rgba(0,0,0,0.2);
+    transform: scale(1.1); 
+  }
+  .IMG3{
+    height: 171px;
+    width: 235px;
+    border-radius: 10px;
+  }
+  #img3{
+    text-align: center;
+    padding-top: 20px;
+  }
+  #c3{
+    padding-top: 15px;
+  }
+  .card-4{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    padding: 50px;
+    transition: 0.2s;
+    background-color:aqua;
+    border-radius: 10px;
+    padding-left: 20px;
+    margin-top: 80px;
+    height: 200px;
+    width:225px;
+    margin-left: 200px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: relative;
+    size:16px;
+    text-align: center;
+  }
+  .card-4:hover {
+    box-shadow: 0 15px 16px 0 rgba(0,0,0,0.2);
+    transform: scale(1.1); 
+  }
+  #c4{
+    padding-top: 15px;
+  }
+  .IMG4{
+    height: 187px;
+    width: 181px;
+    border-radius: 10px;
+  }
+  .card-5{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    padding: 50px;
+    transition: 0.2s;
+    background-color:aqua;
+    border-radius: 10px;
+    padding-left: 20px;
+    margin-top: -300px;
+    height: 200px;
+    width:225px;
+    margin-left: 550px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: relative;
+    size:16px;
+    text-align: center;
+  }
+  .card-5:hover {
+    box-shadow: 0 15px 16px 0 rgba(0,0,0,0.2);
+    transform: scale(1.1); 
+  }
+  #c5{
+    padding-top: 15px;
+  }
+  .IMG5{
+    height: 187px;
+    width: 181px;
+    border-radius: 10px;
+  }
+  #grad2{
+    background: linear-gradient(-45deg, rgb(242, 0, 255), green, blue, yellow ); 
+    background-size: 400% 400%;
+    width: 100%;
+    height: 100vh;
+    margin-top:0px;
+    animation:  animate 15s ease infinite;
+     
+  }
+
+@keyframes animate{
+    0%{
+        background-position: 0 50%;
+        }
+        50%{
+        background-position: 100% 50%;
+        }
+        100%{
+        background-position:0 50%;
+        }
+}
+#BORDER{
+  border-radius: 30px;
+  padding: 20px;
+  width: 800px;
+  height: 600px;
+  border-style:solid;
+  border-color:white;
+  margin-top:-630px;
+  margin-left:75px;
+  border-width:5px;
+  background:#3A3845;
+  position: relative;
+  text-align: center;
+  
+}
+#BGIMAGE{
+  height: 320px;
+  width: 330px;
+  margin-left: 50px;
+}
+#BORDER-2{
+  border-radius: 30px;
+    padding: 20px;
+    width: 800px;
+    height: 600px;
+    border-style: solid;
+    border-color: white;
+    margin-top: 50px;
+    margin-left: 310px;
+    border-width: 5px;
+    background: #3A3845;
+    position: relative;
+    text-align: center;
+}
+#Gif-1{
+  position: relative;
+  margin-left: 948px;
+  margin-top: 100px;
+  border-radius: 20px;
+}
+#Gif-2{
+  position: relative;
+  margin-left: 950px;
+  margin-top: 10px;
+  border-radius: 20px;
+  height: 288px;
+  width: 500px;
+}
+#BORDER #text-1{
+  text-align: justify;
+  text-justify: inter-word;
+}
+#BORDER-2{
+  border-radius: 30px;
+  padding: 20px;
+  width: 800px;
+  height: 520px;
+  border-style:solid;
+  border-color:white;
+  margin-top:100px;
+  margin-left:315px;
+  border-width:5px;
+  background:#3A3845;
+  position: relative;
+  text-align: center;
+  
+}
+#BORDER #text-2{
+  text-align: justify;
+  text-justify: inter-word;
+}
+#BORDER2{
+  border-radius: 15px 50px 30px;
+  padding: 20px;
+  width: 1300px;
+  height: 600px;
+  border-style:solid;
+  border-color:white;
+  margin-top:100px;
+  margin-left:50px;
+  border-width:5px;
+  background:black;
+}
+#BORDER-3{
+  border-radius: 20px;
+  padding: 20px;
+  width: 800px;
+  height: 850px;
+  border-style:solid;
+  border-color:white;
+  margin-top:100px;
+  margin-left:310px;
+  border-width:5px;
+  background:#3A3845;
+}
+#BORDER-3 #app{
+  text-align: justify;
+  text-justify: inter-word;
+  font-size: 20px;
+}
+.TEXTCOLOUR{
+  background: #009EFF;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+#grad3{
+  background: linear-gradient(-45deg, rgb(242, 0, 255), green, blue, yellow ); 
+  background-size: 400% 400%;
+  width: 100%;
+  height: 200vh;
+  margin-top:0px;
+  animation:  animate 15s ease infinite;
+  
+   
+}
+
+/* temp css */
+.main-cards{
+  width: 100%;
+  height: 800px;
+  margin:0;
+  position: relative;
+  /* background-color: rgb(54, 59, 203); */
+  /* border: black solid 1px; */
+}
+.card-a{
+  margin: 0;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  margin-left: 220px;
+}
+.card-b{
+  margin: 0;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  margin-left: 400px;
+}
+.Card-1{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    margin-top: 30px;
+    margin-left: 30px;
+    padding: 50px;
+    transition: 0.2s;
+    background-color:lightblue;
+    border-radius: 20px;
+    padding-left: 20px;
+    height: 200px;
+    width:225px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: relative;
+    text-align: center;
+}
+#cimg-1{
+  height: 175px;
+  width: 250px;
+  position: relative;
+  border-radius: 20px;
+  margin-top: -30px;
+  margin-left: 4px;
+}
+.Card-2{
+  
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    margin-top: 30px;
+    margin-left: 30px;
+    padding: 50px;
+    transition: 0.2s;
+    background-color:lightblue;
+    border-radius: 20px;
+    padding-left: 20px;
+    height: 200px;
+    width:225px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: relative;
+    text-align: center;
+}
+#cimg-2{
+  height: 175px;
+  width: 250px;
+  position: relative;
+  border-radius: 20px;
+  margin-top: -30px;
+  margin-left: 4px;
+}
+
+.Card-3{
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  margin-top: 30px;
+  margin-left: 30px;
+  padding: 50px;
+  transition: 0.2s;
+  background-color:lightblue;
+  border-radius: 20px;
+  padding-left: 20px;
+  height: 200px;
+  width:225px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  position: relative;
+  text-align: center;
+}
+#cimg-3{
+  height: 175px;
+  width: 250px;
+  position: relative;
+  border-radius: 20px;
+  margin-top: -30px;
+  margin-left: 4px;
+}
+.Card-4{
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  margin-top: 30px;
+  margin-left: 30px;
+  padding: 50px;
+  transition: 0.2s;
+  background-color:lightblue;
+  border-radius: 20px;
+  padding-left: 20px;
+  height: 200px;
+  width:225px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  position: relative;
+  text-align: center;
+}
+#cimg-4{
+  height: 175px;
+  width: 180px;
+  position: relative;
+  border-radius: 20px;
+  margin-top: -30px;
+  margin-left: 25px;
+}
+.Card-5{
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  margin-top: 30px;
+  margin-left: 30px;
+  padding: 50px;
+  transition: 0.2s;
+  background-color:lightblue;
+  border-radius: 10px;
+  padding-left: 20px;
+  height: 200px;
+  width:225px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  position: relative;
+  text-align: center;
+}
+#cimg-5{
+  height: 175px;
+  width: 180px;
+  position: relative;
+  border-radius: 20px;
+  margin-top: -30px;
+  margin-left: 25px;
+}
+
+.Card-1:hover{
+  
+  transform: scale(1.1); 
+}
+.Card-2:hover{
+  
+  transform: scale(1.1); 
+}
+.Card-3:hover{
+  
+  transform: scale(1.1); 
+}
+.Card-4:hover{
+  
+  transform: scale(1.1); 
+}
+.Card-5:hover{
+  
+  transform: scale(1.1); 
+}
+
+#ch-1{
+  margin-top: 16px;
+}
+#cb{
+  margin-top: 20px;
+  margin-left: 25px;
+  height: 35px;
+  width: 100px;
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: goldenrod;
+}
+
+#cb:hover{
+  background-color: #FEDB39;
+}
+#cb a{
+  text-decoration: none;
+  text-transform: uppercase;
+  color: black;
+}
+#CB{
+  margin-top: 70px;
+  margin-left: 25px;
+  height: 35px;
+  width: 100px;
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: goldenrod;
+}
+#CB:hover{
+  background-color: #FEDB39;
+}
+#CB a{
+  text-decoration: none;
+  text-transform: uppercase;
+  color: black;
+}
+
+#CB-2{
+  margin-top: 90px;
+  margin-left: 25px;
+  height: 35px;
+  width: 100px;
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: goldenrod;
+}
+#CB-2:hover{
+  background-color: #FEDB39;
+}
+#CB-2 a{
+  text-decoration: none;
+  text-transform: uppercase;
+  color: black;
+}
+
+
+.footer{
+  width: 100%;
+  height:300px;
+  background-color: rgba(0, 0, 0, 0.796);
+
+  
+}
+
+
+#t1{
+  background: linear-gradient(
+    to right, #f32170, #ff6b08,
+     #cf23cf, #eedd44);
+-webkit-text-fill-color: transparent;
+-webkit-background-clip: text;
+  font-size: 70px;
+  position: relative;
+  text-align: center;
+}
+#adv{
+  font-size: 20px;
+}
+#BORDER-4{
+  border-radius: 30px;
+  padding: 20px;
+  width: 800px;
+  height: 750px;
+  border-style: solid;
+  border-color: white;
+  margin-top: 50px;
+  margin-left: 310px;
+  border-width: 5px;
+  background: #3A3845;
+  position: relative;
+  text-align: center;
+}
+#BORDER-4 #adv{
+  text-align: justify;
+  text-justify: inter-word;
+}
+#BORDER-5{
+  border-radius: 20px;
+  padding: 20px;
+  width: 800px;
+  height: 850px;
+  border-style:solid;
+  border-color:white;
+  margin-top:100px;
+  margin-left:310px;
+  border-width:5px;
+  background:#3A3845;
+}
+#BORDER-5 #dis{
+  text-align: justify;
+  text-justify: inter-word;
+}
+#dis{
+  font-size: 22px;
+}
+#dev{
+  height: 800px;
+  width: 1450px;
+}
+#image-1 #image2{
+  border-radius: 80px;
+
+}
+.MC{
+  width: 100%;
+  height: 800px;
+  margin:0;
+  position: relative;
+ 
+}
+.CARD-a{
+  margin: 0;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  margin-left: 220px;
+}
+.Card-x{
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  margin-top: 240px;
+  margin-left: 20px;
+  padding: 50px;
+  transition: 0.2s;
+  background-color:lightblue;
+  border-radius: 20px;
+  padding-left: 20px;
+  height: 450px;
+  width:400px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  position: relative;
+  text-align: center;
+}
+#cimg-x{
+  height: 300px;
+  width: 300px;
+  position: relative;
+  border-radius: 20px;
+  margin-top: -30px;
+  margin-left: 4px;
+}
+.Card-y{
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  margin-top: 240px;
+  margin-left: 20px;
+  padding: 50px;
+  transition: 0.2s;
+  background-color:lightblue;
+  border-radius: 20px;
+  padding-left: 20px;
+  height: 450px;
+  width:400px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  position: relative;
+  text-align: center;
+}
+#cimg-y{
+  height: 300px;
+  width: 300px;
+  position: relative;
+  border-radius: 20px;
+  margin-top: -30px;
+  margin-left: 4px;
+}
+
+/* media queries */
+@media only screen and (max-width: 767.98px) 
+{ 
+  .banner .navbar .icon{
+    font-size: 15px;
+  }
+  .banner .navbar ul{
+    font-size: 10px;
+  }
+  .banner{
+    background: linear-gradient(-45deg, rgb(59, 157, 211), rgb(17, 176, 142), blue, yellow); 
+    background-size: 400% 400%;
+    width: 100%;
+    height: 100%;
+    margin-top:0px;
+    animation:  animate 15s ease infinite;
+}
+.typed-out{
+  overflow: hidden;
+  border-right: .15em solid orange;
+  white-space: nowrap;
+  font-size:29px;
+  width: 0;
+  animation: typing 1s steps(20, end) forwards;
+  text-align: center;
+  background: -webkit-linear-gradient(rgb(30, 246, 77), rgb(248, 142, 12));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-left: -20px;
+  
+  
+}
+ #BGIMAGE {
+   height: 200px;
+    width: 200px;
+    margin-left: 10px;
+    margin-top: 20px;
+    position: relative;
+}
+.navbar{
+    width: 85%;
+    margin:auto;
+    padding:35px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: fixed;
+}
+.icon{
+    font-family: serif;
+    color: white;
+    cursor: pointer;
+}
+.icon a{
+    text-decoration: none;
+    color: white;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+  .main-cards{
+  width: 100%;
+  height: 2000px;
+  margin:0;
+  position: relative;
+  /* background-color: rgb(54, 59, 203); */
+}
+  .card-a{
+    margin: 0;
+    height: 400px;
+    display: block;
+    align-items: center;
+    margin-left: 80px;
+  }
+  .card-b{
+    margin: 0;
+    height: 400px;
+    display: block;
+    align-items: center;
+    margin-left: 80px;
+    margin-top: 580px;
+  }
+  #t1{
+    font-size: 30px;
+  }
+  #Gif-1{
+   
+    height: 275px;
+    width: 450px;
+    margin-left: 21px;
+    margin-top: 18px;
+}
+#Gif-2{
+  height: 275px;
+    width: 450px;
+    margin-left: 21px;
+    margin-top: 18px;
+}
+  
+  #BORDER {
+    border-radius: 30px;
+    padding: 20px;
+    width: 420px;
+    height: 1200px;
+    border-style: solid;
+    border-color: white;
+    margin-top: 10px;
+    margin-left: 14px;
+    border-width: 5px;
+    background: #3A3845;
+    position: relative;
+    text-align: center;
+}
+#BORDER-2 {
+  border-radius: 30px;
+  padding: 20px;
+  width: 418px;
+  height: 1040px;
+  border-style: solid;
+  border-color: white;
+  margin-top: 18px;
+  margin-left: 13px;
+  border-width: 5px;
+  background: #3A3845;
+  position: relative;
+  text-align: center;
+}
+#grad3 {
+  background: linear-gradient(-45deg, rgb(242, 0, 255), green, blue, yellow );
+  background-size: 400% 400%;
+  width: 100%;
+  height: 1900px;
+  margin-top: 0px;
+  animation: animate 15s ease infinite;
+}
+#BORDER-3 {
+  border-radius: 20px;
+  padding: 20px;
+  width: 400px;
+  height: 1485px;
+  border-style: solid;
+  border-color: white;
+  margin-top: 17px;
+  margin-left: 24px;
+  border-width: 5px;
+  background: #3A3845;
+}
+#BORDER-4 {
+  border-radius: 20px;
+  padding: 20px;
+  width: 400px;
+  height: 1230px;
+  border-style: solid;
+  border-color: white;
+  margin-top: 17px;
+  margin-left: 24px;
+  border-width: 5px;
+  background: #3A3845;
+}
+#BORDER-5 {
+  border-radius: 20px;
+  padding: 20px;
+  width: 400px;
+  height: 1535px;
+  border-style: solid;
+  border-color: white;
+  margin-top: 17px;
+  margin-left: 24px;
+  border-width: 5px;
+  background: #3A3845;
+}
+.footer{
+  width: 100%;
+  height:300px;
+  background-color: rgba(0, 0, 0, 0.796);
+  margin-top: 40px;
+  
+}
+.MC{
+    margin-top: -250px;
+    /* margin-right: 132px; */
+    margin-left: -90px;
+    display: block;
+}
+.CARD-a{
+  margin: 0;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  margin-left: 220px;
+}
+.Card-x{
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  margin-top: 240px;
+  margin-left: 20px;
+  padding: 50px;
+  transition: 0.2s;
+  background-color:lightblue;
+  border-radius: 20px;
+  padding-left: 20px;
+  height: 450px;
+  width:400px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  position: relative;
+  text-align: center;
+}
+.Card-y{
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  margin-top: 240px;
+  margin-left: 20px;
+  padding: 50px;
+  transition: 0.2s;
+  background-color:lightblue;
+  border-radius: 20px;
+  padding-left: 20px;
+  height: 450px;
+  width:400px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  position: relative;
+  text-align: center;
+}
+}
